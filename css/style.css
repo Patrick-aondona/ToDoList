@@ -1,0 +1,49 @@
+@font-face {
+    font-family: inter;
+    src: url(../fonts/Inter-SemiBold.ttf);
+}
+body{
+    border: solid cornflowerblue;
+    height: auto;
+    color:  rgb(36, 68, 128);
+    background-color: rgb(36, 68, 128);
+}
+section{
+    height: 6vh;
+    border-radius: 7px;
+    font-family: inter;
+}
+#task{
+    font-style: italic;
+    font-weight: 500;
+    
+}
+.task-box{
+    background-color: cornflowerblue;
+    height: 8.5vh;
+}
+.task-box span{
+    font-size: 6vh;
+    color:  rgb(36, 68, 128);
+}
+.task-box input{
+    position: relative;
+    bottom: 10px;
+    left: 49px;
+    width: 40%;
+    height: 5vh;
+}
+.task-box button{
+    position: relative;
+    left: 60px;
+    bottom: 10px;
+    height: 6vh;
+    width: 10vw;
+    border-radius: 20px;
+    background-color: rgb(36, 68, 128);
+    color: #e0e0e0;
+}
+ul{
+    color: #e0e0e0;
+    font-family: inter;
+}
